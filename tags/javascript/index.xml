@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Andrew Rady</title>
+    <link>http://example.org/tags/javascript/</link>
+    <description>Recent content in Javascript on Andrew Rady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Feb 2019 22:37:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>Hello, World! My name is Andrew Rady and I am currently a front end developer at Ritter Insurance Marketing working with Vue. I have been writing some blog post on our company blog at rimdev.io, but I wanted to start a personal one. On rimdev.io most of my articles are around vue since that is what I work on mostly, but I want to be able to share some of my experiences from side projects.</description>
+    </item>
+    
+  </channel>
+</rss>
