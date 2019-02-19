@@ -3,64 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/rails-windows-development/</loc>
+    <loc>https://andrewrady.github.io/posts/rails-windows-development/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/first-post/</loc>
+    <loc>https://andrewrady.github.io/posts/first-post/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/golang/</loc>
-    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/javascript/</loc>
-    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://andrewrady.github.io/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/rails/</loc>
+    <loc>https://andrewrady.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewrady.github.io/tags/golang/</loc>
+    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewrady.github.io/tags/javascript/</loc>
+    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewrady.github.io/posts/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://andrewrady.github.io/tags/rails/</loc>
+    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewrady.github.io/tags/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/vue.js/</loc>
+    <loc>https://andrewrady.github.io/tags/vue.js/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/wsl/</loc>
+    <loc>https://andrewrady.github.io/tags/wsl/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
     <priority>0</priority>
   </url>
