@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Andrew Rady</title>
-    <link>http://example.org/tags/api/</link>
+    <link>/tags/api/</link>
     <description>Recent content in Api on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2019 17:57:45 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go Api</title>
-      <link>http://example.org/posts/go-api/</link>
+      <link>/posts/go-api/</link>
       <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
       
-      <guid>http://example.org/posts/go-api/</guid>
+      <guid>/posts/go-api/</guid>
       <description>Golang First API I have been following Golang for a little but. It seemed interesting to me for a few reasons. One major one was the speed of it. Another was it&amp;rsquo;s syntax is similar to python. I am no python developer, but I have made a few side project with it. SO I decided to update and an aging Rails application. It&amp;rsquo;s just a simple crud application that displays martial arts rings at tournaments.</description>
     </item>
     

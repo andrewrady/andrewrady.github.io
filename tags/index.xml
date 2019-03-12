@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Andrew Rady</title>
-    <link>http://example.org/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2019 17:57:45 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Api</title>
-      <link>http://example.org/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
       
-      <guid>http://example.org/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://example.org/tags/golang/</link>
+      <link>/tags/golang/</link>
       <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
       
-      <guid>http://example.org/tags/golang/</guid>
+      <guid>/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>http://example.org/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
       
-      <guid>http://example.org/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rails</title>
-      <link>http://example.org/tags/rails/</link>
+      <link>/tags/rails/</link>
       <pubDate>Sat, 16 Feb 2019 23:47:32 -0700</pubDate>
       
-      <guid>http://example.org/tags/rails/</guid>
+      <guid>/tags/rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vue.js</title>
-      <link>http://example.org/tags/vue.js/</link>
+      <link>/tags/vue.js/</link>
       <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
       
-      <guid>http://example.org/tags/vue.js/</guid>
+      <guid>/tags/vue.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wsl</title>
-      <link>http://example.org/tags/wsl/</link>
+      <link>/tags/wsl/</link>
       <pubDate>Sat, 16 Feb 2019 23:47:32 -0700</pubDate>
       
-      <guid>http://example.org/tags/wsl/</guid>
+      <guid>/tags/wsl/</guid>
       <description></description>
     </item>
     

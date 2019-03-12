@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wsl on Andrew Rady</title>
-    <link>http://example.org/tags/wsl/</link>
+    <link>/tags/wsl/</link>
     <description>Recent content in Wsl on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Feb 2019 23:47:32 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rails Windows Development</title>
-      <link>http://example.org/posts/rails-windows-development/</link>
+      <link>/posts/rails-windows-development/</link>
       <pubDate>Sat, 16 Feb 2019 23:47:32 -0700</pubDate>
       
-      <guid>http://example.org/posts/rails-windows-development/</guid>
+      <guid>/posts/rails-windows-development/</guid>
       <description>Rails development on Windows Developing Rails applications on windows has always been a pain. It&amp;rsquo;s simple enough to install ruby and the need gems to get a basic Rails application started, but in time developers will run into problems. A lot of gem work fine in a windows environment, but some do not compile down correctly and this is the main issue with developing on Windows. For this reason many people who need to work on Rails applications are running their development environment on OSX or Linux, including me.</description>
     </item>
     
