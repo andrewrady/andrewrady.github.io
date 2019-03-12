@@ -3,64 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://andrewrady.github.io/posts/rails-windows-development/</loc>
+    <loc>http://example.org/posts/go-api/</loc>
+    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/rails-windows-development/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://andrewrady.github.io/posts/first-post/</loc>
+    <loc>http://example.org/posts/first-post/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://andrewrady.github.io/</loc>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/api/</loc>
+    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/golang/</loc>
+    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/javascript/</loc>
+    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/rails/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://andrewrady.github.io/categories/</loc>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://andrewrady.github.io/tags/golang/</loc>
+    <loc>http://example.org/tags/vue.js/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://andrewrady.github.io/tags/javascript/</loc>
-    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewrady.github.io/posts/</loc>
-    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewrady.github.io/tags/rails/</loc>
-    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewrady.github.io/tags/</loc>
-    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewrady.github.io/tags/vue.js/</loc>
-    <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewrady.github.io/tags/wsl/</loc>
+    <loc>http://example.org/tags/wsl/</loc>
     <lastmod>2019-02-16T23:47:32-07:00</lastmod>
     <priority>0</priority>
   </url>

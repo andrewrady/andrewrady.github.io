@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew Rady</title>
-    <link>https://andrewrady.github.io/</link>
+    <link>http://example.org/</link>
     <description>Recent content on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Feb 2019 23:47:32 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 17:57:45 -0600</lastBuildDate>
     
-	<atom:link href="https://andrewrady.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Go Api</title>
+      <link>http://example.org/posts/go-api/</link>
+      <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
+      
+      <guid>http://example.org/posts/go-api/</guid>
+      <description>Golang First API I have been following Golang for a little but. It seemed interesting to me for a few reasons. One major one was the speed of it. Another was it&amp;rsquo;s syntax is similar to python. I am no python developer, but I have made a few side project with it. SO I decided to update and an aging Rails application. It&amp;rsquo;s just a simple crud application that displays martial arts rings at tournaments.</description>
+    </item>
+    
+    <item>
       <title>Rails Windows Development</title>
-      <link>https://andrewrady.github.io/posts/rails-windows-development/</link>
+      <link>http://example.org/posts/rails-windows-development/</link>
       <pubDate>Sat, 16 Feb 2019 23:47:32 -0700</pubDate>
       
-      <guid>https://andrewrady.github.io/posts/rails-windows-development/</guid>
+      <guid>http://example.org/posts/rails-windows-development/</guid>
       <description>Rails development on Windows Developing Rails applications on windows has always been a pain. It&amp;rsquo;s simple enough to install ruby and the need gems to get a basic Rails application started, but in time developers will run into problems. A lot of gem work fine in a windows environment, but some do not compile down correctly and this is the main issue with developing on Windows. For this reason many people who need to work on Rails applications are running their development environment on OSX or Linux, including me.</description>
     </item>
     
     <item>
       <title>First Post</title>
-      <link>https://andrewrady.github.io/posts/first-post/</link>
+      <link>http://example.org/posts/first-post/</link>
       <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
       
-      <guid>https://andrewrady.github.io/posts/first-post/</guid>
+      <guid>http://example.org/posts/first-post/</guid>
       <description>Hello, World! My name is Andrew Rady and I am currently a front end developer at Ritter Insurance Marketing working with Vue. I have been writing some blog post on our company blog at rimdev.io, but I wanted to start a personal one. On rimdev.io most of my articles are around vue since that is what I work on mostly, but I want to be able to share some of my experiences from side projects.</description>
     </item>
     
