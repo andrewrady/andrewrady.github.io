@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/mux-cors/</loc>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/go-api/</loc>
     <lastmod>2019-03-11T17:57:45-06:00</lastmod>
   </url>
@@ -19,13 +24,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/api/</loc>
-    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -35,8 +40,14 @@
   </url>
   
   <url>
+    <loc>/tags/cors/</loc>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/golang/</loc>
-    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,7 +59,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -60,7 +71,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-03-11T17:57:45-06:00</lastmod>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
     <priority>0</priority>
   </url>
   

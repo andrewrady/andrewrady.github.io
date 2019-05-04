@@ -6,10 +6,20 @@
     <description>Recent content on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 17:57:45 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2019 09:00:50 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mux Cors</title>
+      <link>/posts/mux-cors/</link>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
+      
+      <guid>/posts/mux-cors/</guid>
+      <description>Handling CORS with Gorilla Mux In an earlier post I talked about create an API with golang using a few packages. One of the main ones packages many people use is mux for routes. This makes it easier handles routes within our application. Now we need setup our application to allow certain sites to talk with our api. Luckily Gorilla has another package that integrates seamlessly with Mux.
+Setting up our routes Let&amp;rsquo;s make a function in our main.</description>
+    </item>
     
     <item>
       <title>Go Api</title>

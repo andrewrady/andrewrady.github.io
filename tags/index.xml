@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 17:57:45 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2019 09:00:50 -0600</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>Api</title>
       <link>/tags/api/</link>
-      <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
       
       <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Cors</title>
+      <link>/tags/cors/</link>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
+      
+      <guid>/tags/cors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Golang</title>
       <link>/tags/golang/</link>
-      <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
       
       <guid>/tags/golang/</guid>
       <description></description>

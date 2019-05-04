@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Api on Andrew Rady</title>
-    <link>/tags/api/</link>
-    <description>Recent content in Api on Andrew Rady</description>
+    <title>Cors on Andrew Rady</title>
+    <link>/tags/cors/</link>
+    <description>Recent content in Cors on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 May 2019 09:00:50 -0600</lastBuildDate>
     
-	<atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/cors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>/posts/mux-cors/</guid>
       <description>Handling CORS with Gorilla Mux In an earlier post I talked about create an API with golang using a few packages. One of the main ones packages many people use is mux for routes. This makes it easier handles routes within our application. Now we need setup our application to allow certain sites to talk with our api. Luckily Gorilla has another package that integrates seamlessly with Mux.
 Setting up our routes Let&amp;rsquo;s make a function in our main.</description>
-    </item>
-    
-    <item>
-      <title>Go Api</title>
-      <link>/posts/go-api/</link>
-      <pubDate>Mon, 11 Mar 2019 17:57:45 -0600</pubDate>
-      
-      <guid>/posts/go-api/</guid>
-      <description>Golang First API I have been following Golang for a little but. It seemed interesting to me for a few reasons. One major one was the speed of it. Another was it&amp;rsquo;s syntax is similar to python. I am no python developer, but I have made a few side project with it. SO I decided to update and an aging Rails application. It&amp;rsquo;s just a simple crud application that displays martial arts rings at tournaments.</description>
     </item>
     
   </channel>
