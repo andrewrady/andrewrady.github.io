@@ -48,9 +48,18 @@
     </item>
     
     <item>
+      <title>Postgres</title>
+      <link>/tags/postgres/</link>
+      <pubDate>Tue, 03 Mar 2020 12:15:32 -0600</pubDate>
+      
+      <guid>/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rails</title>
       <link>/tags/rails/</link>
-      <pubDate>Sat, 16 Feb 2019 23:47:32 -0700</pubDate>
+      <pubDate>Tue, 03 Mar 2020 12:15:32 -0600</pubDate>
       
       <guid>/tags/rails/</guid>
       <description></description>

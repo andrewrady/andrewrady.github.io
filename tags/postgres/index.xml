@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postgres on Andrew Rady</title>
+    <link>/tags/postgres/</link>
+    <description>Recent content in Postgres on Andrew Rady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2020 12:15:32 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connecting Your Rails App to a Database</title>
+      <link>/posts/connecting-your-rails-app-to-a-database/</link>
+      <pubDate>Tue, 03 Mar 2020 12:15:32 -0600</pubDate>
+      
+      <guid>/posts/connecting-your-rails-app-to-a-database/</guid>
+      <description>Connecting your Rails application to a database Rails default setup uses sqlite which is a great way to get starting building applications, but at some point we will need to connect to a real database. Whether you need functionality that is specific to a certain database, or you want to simulate your production environment more. Connecting to a database is pretty easy with Rails. The first thing you will need is a database installed on your computer.</description>
+    </item>
+    
+  </channel>
+</rss>

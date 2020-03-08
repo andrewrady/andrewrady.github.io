@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/connecting-your-rails-app-to-a-database/</loc>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/mux-cors/</loc>
     <lastmod>2019-05-04T09:00:50-06:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,14 +63,20 @@
   </url>
   
   <url>
+    <loc>/tags/postgres/</loc>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/posts/</loc>
-    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/rails/</loc>
-    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
