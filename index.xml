@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew Rady</title>
@@ -6,10 +6,19 @@
     <description>Recent content on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2020 12:15:32 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 27 May 2021 20:58:07 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coming Back</title>
+      <link>/posts/coming-back/</link>
+      <pubDate>Thu, 27 May 2021 20:58:07 -0600</pubDate>
+      
+      <guid>/posts/coming-back/</guid>
+      <description>New Blog Post Its been a while since I last wrote a blog post here. I’ve wanted to start blogging again recently, but a lot has happened professionally and personal that has made it hard to getting back to it. More on that soon (All good)! I do plan on adding more content to this site to talk about side projects that I’ve been working on, and what I have learned from them.</description>
+    </item>
     
     <item>
       <title>Connecting Your Rails App to a Database</title>

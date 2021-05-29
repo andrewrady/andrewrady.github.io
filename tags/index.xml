@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Andrew Rady</title>
@@ -6,49 +6,13 @@
     <description>Recent content in Tags on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 09:00:50 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2020 12:15:32 -0600</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Api</title>
-      <link>/tags/api/</link>
-      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
-      
-      <guid>/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cors</title>
-      <link>/tags/cors/</link>
-      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
-      
-      <guid>/tags/cors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
-      
-      <guid>/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>/tags/javascript/</link>
-      <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
-      
-      <guid>/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postgres</title>
+      <title>postgres</title>
       <link>/tags/postgres/</link>
       <pubDate>Tue, 03 Mar 2020 12:15:32 -0600</pubDate>
       
@@ -57,7 +21,7 @@
     </item>
     
     <item>
-      <title>Rails</title>
+      <title>rails</title>
       <link>/tags/rails/</link>
       <pubDate>Tue, 03 Mar 2020 12:15:32 -0600</pubDate>
       
@@ -66,20 +30,56 @@
     </item>
     
     <item>
-      <title>Vue.js</title>
-      <link>/tags/vue.js/</link>
-      <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
       
-      <guid>/tags/vue.js/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wsl</title>
+      <title>cors</title>
+      <link>/tags/cors/</link>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
+      
+      <guid>/tags/cors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Sat, 04 May 2019 09:00:50 -0600</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl</title>
       <link>/tags/wsl/</link>
       <pubDate>Sat, 16 Feb 2019 23:47:32 -0700</pubDate>
       
       <guid>/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue.js</title>
+      <link>/tags/vue.js/</link>
+      <pubDate>Sun, 03 Feb 2019 22:37:00 -0700</pubDate>
+      
+      <guid>/tags/vue.js/</guid>
       <description></description>
     </item>
     

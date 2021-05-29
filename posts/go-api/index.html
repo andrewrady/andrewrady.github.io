@@ -3,7 +3,7 @@
   <head>
     <title>Go Api // Andrew Rady</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.53" />
+    <meta name="generator" content="Hugo 0.74.3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Andrew Rady" />
     <meta name="description" content="" />
@@ -38,54 +38,36 @@
           3 min read
         </div><div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
-          <a class="tag" href="/tags/golang/">Golang</a><a class="tag" href="/tags/api/">Api</a></div></div>
+          <a class="tag" href="/tags/golang/">golang</a><a class="tag" href="/tags/api/">api</a></div></div>
     </header>
     <div class="post-content">
-      
-
-<h2 id="golang-first-api">Golang First API</h2>
-
+      <h2 id="golang-first-api">Golang First API</h2>
 <p>I have been following Golang for a little but. It seemed interesting to me for a few reasons. One major one was the speed of it. Another was it&rsquo;s syntax is similar to python. I am no python developer, but I have made a few side project with it. SO I decided to update and an aging Rails application. It&rsquo;s just a simple crud application that displays martial arts rings at tournaments. While I could write the entire website with Go I opted in to make an api. The reason is I want to make a React site and mobile apps made with React Native. It&rsquo;s a pretty simple rest API that needed to connect to a database. I used a few packages to make development practical</p>
-
 <ul>
 <li><a href="https://github.com/gorilla/mux">Mux</a> (for route handling)</li>
 <li><a href="https://github.com/jinzhu/gorm">gorm</a> (an orm for golang to interface with databases)</li>
 <li><a href="https://github.com/dgrijalva/jwt-go">jwt-go</a> [to help create jwt for Auth]</li>
 <li><a href="golang.org/x/crypto/bcrypt">bcrypt</a> (to hash passwords)</li>
 </ul>
-
 <h2 id="things-i-have-learned">Things I have learned</h2>
-
 <p>importing packages are fairly similar to other languages as python. In Golang we can import a package like,</p>
-
 <pre><code>import(&quot;os&quot;)
-</code></pre>
-
-<p>or for multiple imports,</p>
-
+</code></pre><p>or for multiple imports,</p>
 <pre><code>import(
   &quot;os&quot;
   &quot;fmt&quot;
   &quot;net/http&quot;
 )
-</code></pre>
-
-<p>These are packages that come with Go, but we cna  an import other people&rsquo;s packages with an import path to their github.</p>
-
+</code></pre><p>These are packages that come with Go, but we cna  an import other people&rsquo;s packages with an import path to their github.</p>
 <pre><code>import(
   &quot;os&quot;
   &quot;fmt&quot;
   &quot;net/http&quot;
   &quot;github.com/gorilla/mux
 )
-</code></pre>
-
-<p>So importing packages are pretty simple. While there seems to be a few different dependency managers in Golang there is no standard at this time like NPM for node. For this project I ended up using <a href="https://github.com/golang/dep">dep</a> More on this in another post.</p>
-
+</code></pre><p>So importing packages are pretty simple. While there seems to be a few different dependency managers in Golang there is no standard at this time like NPM for node. For this project I ended up using <a href="https://github.com/golang/dep">dep</a> More on this in another post.</p>
 <p>Another thing I learned from this project is export functions and how to use them in different files. This project is pretty small so the <code>main.go</code> handles all of the routing, and the functions that handle all of the logic is broken into different files. For example the <code>/ring</code> route returns all of the active rings. The function that handles communication to the database and return the values in json is in the <code>rings.go</code> file. For the <code>main.go</code> to be able to use the <code>AllRings</code> function all we need to do is capitalize the function. Any function in that file that isn&rsquo;t capitalized can only be used within that file. Personally I like this simple practice. I have forgot to export a function in larger files and took sime valuable time debugging to figure out I forgot this.</p>
-
 <h2 id="wrap-up">Wrap up</h2>
-
 <p>The project is hosted in github and still needs some work. This is a side project that gets used only a few times a year so I continue to work on it from time to time. If you want to check it out head over and have a <a href="https://github.com/andrewrady/ring-api">look at my github</a></p>
 
     </div>

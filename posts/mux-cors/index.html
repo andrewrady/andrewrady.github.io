@@ -3,7 +3,7 @@
   <head>
     <title>Mux Cors // Andrew Rady</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.53" />
+    <meta name="generator" content="Hugo 0.74.3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Andrew Rady" />
     <meta name="description" content="" />
@@ -38,19 +38,13 @@
           2 min read
         </div><div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
-          <a class="tag" href="/tags/golang/">Golang</a><a class="tag" href="/tags/api/">Api</a><a class="tag" href="/tags/cors/">Cors</a></div></div>
+          <a class="tag" href="/tags/golang/">golang</a><a class="tag" href="/tags/api/">api</a><a class="tag" href="/tags/cors/">cors</a></div></div>
     </header>
     <div class="post-content">
-      
-
-<h2 id="handling-cors-with-gorilla-mux">Handling CORS with Gorilla Mux</h2>
-
+      <h2 id="handling-cors-with-gorilla-mux">Handling CORS with Gorilla Mux</h2>
 <p>In an earlier post I talked about create an API with golang using a few packages. One of the main ones packages many people use is mux for routes. This makes it easier handles routes within our application. Now we need setup our application to allow certain sites to talk with our api. Luckily Gorilla has another package that integrates seamlessly with Mux.</p>
-
 <h2 id="setting-up-our-routes">Setting up our routes</h2>
-
 <p>Let&rsquo;s make a function in our <code>main.go</code> that handles the routes and then call it in our <code>main</code> function</p>
-
 <pre><code>import (
   &quot;fmt&quot;
   &quot;log&quot;
@@ -69,33 +63,18 @@ func main() {
   fmt.Println(&quot;Server is running on port 8080&quot; )
   routes()
 }
-</code></pre>
-
-<p>Here we have a basic implantation with one route, <code>/records</code> which refers to the function <code>RecordsHandler</code>. I didn&rsquo;t have that in the code snippet, but that function handles the logic of getting the records and returning the json. This works great if the application, is on the domain. If not then this is where we need to add some cors policies.</p>
-
+</code></pre><p>Here we have a basic implantation with one route, <code>/records</code> which refers to the function <code>RecordsHandler</code>. I didn&rsquo;t have that in the code snippet, but that function handles the logic of getting the records and returning the json. This works great if the application, is on the domain. If not then this is where we need to add some cors policies.</p>
 <h2 id="gorilla-handlers">Gorilla Handlers</h2>
-
 <p>Lucky gorilla has the handlers package that plays really nicely with mux. All we need to do is import it and add a few more lines. First lets import <code>github.com/gorilla/handlers</code>, then we need to add some variables to configure for headers, methods, and origins.</p>
-
 <pre><code>headers := handlers.AllowedHeaders([]string{&quot;X-Requested-With:&quot;, &quot;Content-Type&quot;})
 methods := handlers.AllowedMethods([]string{&quot;GET&quot;, &quot;POST&quot;, &quot;PUT&quot;, &quot;DELETE&quot;})
 origins := handlers.AllowedOrigins([]string{&quot;www.somewebsite.com&quot;})
-</code></pre>
-
-<p>This allows the headers to be set with content-type so allow for json, the standard crud actions in the methods, and the origin sets where the api is allowed to give this information too. Now we need to alter the listen and server to passes these in.</p>
-
+</code></pre><p>This allows the headers to be set with content-type so allow for json, the standard crud actions in the methods, and the origin sets where the api is allowed to give this information too. Now we need to alter the listen and server to passes these in.</p>
 <pre><code>log.Fatal(http.ListenAndServe(&quot;8080&quot;, handlers.CORS(headers, methods, origins)(myRouter)))
-</code></pre>
-
-<p>This will allow our api to be able to communication with our applications on different domains. This is great if we only want certain sites to be able to access our data. If we want to open the api and be public we can update the string in the <code>origin</code> variable to a wildcard,</p>
-
+</code></pre><p>This will allow our api to be able to communication with our applications on different domains. This is great if we only want certain sites to be able to access our data. If we want to open the api and be public we can update the string in the <code>origin</code> variable to a wildcard,</p>
 <pre><code>origins := handlers.AllowedOrigins([]string{&quot;*&quot;})
-</code></pre>
-
-<h2 id="wrap-up">Wrap up</h2>
-
+</code></pre><h2 id="wrap-up">Wrap up</h2>
 <p>Below is the full program from above with the cors configuration as well,</p>
-
 <pre><code>import (
   &quot;fmt&quot;
   &quot;log&quot;
@@ -119,7 +98,6 @@ func main() {
   routes()
 }
 </code></pre>
-
     </div>
   </article>
 

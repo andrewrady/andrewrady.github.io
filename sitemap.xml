@@ -1,10 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2021-05-27T20:58:07-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/coming-back/</loc>
+    <lastmod>2021-05-27T20:58:07-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-05-27T20:58:07-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/connecting-your-rails-app-to-a-database/</loc>
     <lastmod>2020-03-03T12:15:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/postgres/</loc>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rails/</loc>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cors/</loc>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/golang/</loc>
+    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
   </url>
   
   <url>
@@ -23,79 +68,27 @@
   </url>
   
   <url>
+    <loc>/tags/wsl/</loc>
+    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/first-post/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/api/</loc>
-    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/cors/</loc>
-    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/golang/</loc>
-    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/javascript/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/postgres/</loc>
-    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/rails/</loc>
-    <lastmod>2020-03-03T12:15:32-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-05-04T09:00:50-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/vue.js/</loc>
     <lastmod>2019-02-03T22:37:00-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/wsl/</loc>
-    <lastmod>2019-02-16T23:47:32-07:00</lastmod>
-    <priority>0</priority>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

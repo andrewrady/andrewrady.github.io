@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vue.js on Andrew Rady</title>
+    <title>vue.js on Andrew Rady</title>
     <link>/tags/vue.js/</link>
-    <description>Recent content in Vue.js on Andrew Rady</description>
+    <description>Recent content in vue.js on Andrew Rady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Feb 2019 22:37:00 -0700</lastBuildDate>

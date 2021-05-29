@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Connecting Your Rails App to a Database // Andrew Rady</title>
+    <title>Coming Back // Andrew Rady</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.74.3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,46 +27,24 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Connecting Your Rails App to a Database</h1>
+      <h1 class ="post-title">Coming Back</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-          Mar 3, 2020
+          May 27, 2021
         </div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           2 min read
-        </div><div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
-          <a class="tag" href="/tags/rails/">rails</a><a class="tag" href="/tags/postgres/">postgres</a></div></div>
+        </div></div>
     </header>
     <div class="post-content">
-      <h1 id="connecting-your-rails-application-to-a-database">Connecting your Rails application to a database</h1>
-<p>Rails default setup uses sqlite which is a great way to get starting building applications, but at some point we will need to connect to a real database. Whether you need functionality that is specific to a certain database, or you want to simulate your production environment more. Connecting to a database is pretty easy with Rails. The first thing you will need is a database installed on your computer. For my apps I primarily use Postgres and pgAdmin as my GUI.</p>
-<p>First we will also want to add a gem for Postgres in our  <code>Gemfile</code></p>
-<p><code>gem ‘pg’</code></p>
-<p>Then run the command <code>bundle install</code>. Next in our Rails app we want to update the <code>database.yml</code> file in the <code>config</code> directory. There is four sections, default, development, test, and production. For a basic configuration set the default and any changes you may need in the different environments can be overridden.</p>
-<pre><code>default: &amp;default
-  adapter: postgresql
-  encoding: unicode
-  username: postgres
-  password: postgres
-  pool: 5
-  timeout: 5000
-  host: 127.0.0.1
-
-development:
-  &lt;&lt;: *default
-  database: TestApp
-
-test:
-  &lt;&lt;: *default
-  database: TestApp_test
-
-production:
-  &lt;&lt;: *default
-  database: &lt;%= ENV['POSTGRES_DB'] %&gt;
-</code></pre><p>Let’s break down this file a little. The default is where most of the key information is at. I have the username and password set to postgres, but for a real application you would want to put these into environment variables. The host is the IP address for your database. The other environments have a line <code>&lt;&lt;: *default</code> which pulls the config options from the default section. If you need to change anything for these environments do so after that line.</p>
+      <h2 id="new-blog-post">New Blog Post</h2>
+<p>Its been a while since I last wrote a blog post here. I’ve wanted to start blogging again recently, but a lot has happened professionally and personal that has made it hard to getting back to it. More on that soon (All good)! I do plan on adding more content to this site to talk about side projects that I’ve been working on, and what I have learned from them.</p>
+<p><img src="/back.gif" alt="Back"></p>
+<h3 id="switch-things-up">Switch Things Up</h3>
+<p>I’ll also will be migrating this site from Hugo to a jekyll site. I really like Golang and Hugo has been nice (we use it at work as well) but the community and features the jekyll has is just hard to beat. So stay tuned for a new design coming out soon! One of the main reasons that has pulled my focus away is I have switched roles at work as a back end developer. The last few months I have been getting up to speed with all of our applications and tooling which has been a great learning experience. We’ve also moved in the last few months, so when I thought I was going to have more time write some blog posts everything changed. Now that we’re settled in I have more time to work on some side projects and talk about some of the cool new technologies around them. I already have one started on my personal development environment and work flow so stay tuned for that! Yes I use vim, but not arch&hellip;.</p>
+<p><img src="/vim.png" alt="Vim Logo"></p>
 
     </div>
   </article>
